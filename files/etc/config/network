@@ -17,7 +17,7 @@ config interface 'lan'
 
 config device 'lan_eth1_dev'
 	option name 'eth1'
-	option macaddr ''
+	option macaddr '4a:e5:2b:d4:61:b8'
 
 config interface 'wan'
 	option ifname 'eth0'
@@ -26,5 +26,5 @@ config interface 'wan'
 
 config device 'wan_eth0_dev'
 	option name 'eth0'
-	option macaddr ''
+	option macaddr '4a:e5:2b:d4:61:b7'
 
